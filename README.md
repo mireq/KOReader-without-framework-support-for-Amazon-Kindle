@@ -9,6 +9,6 @@ Install
 Remvoe if condition in [extensions/koreader/menu.json](https://github.com/koreader/koreader/blob/v2022.03.1/platform/kindle/extensions/koreader/menu.json#L28)
 
 Upload directory ``kindle_no_framework_helper.koplugin`` to
-``koreader/plugins`` and restart KOReader.
+``koreader/plugins``
 
-Start KOReader without framework
+Start KOReader (no framework)
