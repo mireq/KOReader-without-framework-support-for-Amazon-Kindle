@@ -34,6 +34,7 @@ function Helper:onExit()
         lipc_handle:set_string_property("com.lab126.blanket", "load", "screensaver")
         lipc_handle:set_string_property("com.lab126.blanket", "load", "splash")
         lipc_handle:close()
+        lipc_handle = nil
     end
 end
 
